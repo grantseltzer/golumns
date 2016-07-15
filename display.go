@@ -1,4 +1,4 @@
-package display
+package golumns
 
 import "fmt"
 
