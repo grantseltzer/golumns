@@ -1,7 +1,8 @@
 # Golumns
 
-This library provides service handles on services for displaying text output
-from your Go programs to the console.
+This library provides access to functions for displaying text output
+from your Go programs to the console in neat columns. This takes into account
+the size of your terminal window.
 
 ## Example Usage
 ![alt text](http://i.imgur.com/WfnQTUw.png "Example Code")
