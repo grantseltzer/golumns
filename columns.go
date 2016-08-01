@@ -40,6 +40,9 @@ func fewestColumns(lengths []int) int {
 
 func columnLength(lengths []int) int {
 	sort.Ints(lengths)
+	if len(lengths) == 0 {
+		return 4
+	}
 	return reverse(lengths)[0] + 4
 }
 
@@ -59,8 +62,5 @@ func numberOfRows(numberOfRows, numberOfNames int) int {
 }
 
 func reverse(input []int) []int {
-	if len(input) == 0 {
-		return input
-	}
 	return append(reverse(input[1:]), input[0])
 }
