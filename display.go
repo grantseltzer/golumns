@@ -26,24 +26,3 @@ func Display(entries []string) error {
 	fmt.Printf("%s", "\n")
 	return nil
 }
-
-type colorOption string
-
-const (
-	Red     colorOption = "red"
-	Green   colorOption = "green"
-	Yellow  colorOption = "yellow"
-	Blue    colorOption = "blue"
-	Magenta colorOption = "magenta"
-	Cyan    colorOption = "cyan"
-	White   colorOption = "white"
-)
-
-type colorConfig struct {
-	color colorOption
-	items []string
-}
-
-type fullConfig struct {
-	colorConfigs []colorConfig
-}
