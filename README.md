@@ -1,5 +1,7 @@
 # Golumns
 
+##  Don't use this, use https://github.com/olekukonko/tablewriter instead
+
 This library provides access to functions for displaying text output
 from your Go programs to the console in neat columns. This takes into account
 the size of your terminal window.
